@@ -1,3 +1,12 @@
+/*
+Autor: André Luiz Barbosa
+Trabalho – Algoritmos e Técnicas de Programação
+Setembro, 2º Semestre, Unidade 2
+Curso: Ciência da Computação, Anhanguera
+
+Repositório: https://github.com/Andrehlb/algoritmos-c-investimento.git
+*/
+
 #include <stdio.h>
 #include <string.h>
 
