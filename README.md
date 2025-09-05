@@ -64,7 +64,7 @@ Endereço do primeiro elemento da matriz: 0x7ffd2c8aa8e0
 - **Vetores e matrizes:** Estruturas para armazenar múltiplos valores.
 - **Ponteiros:** Permitem acessar e manipular diretamente os endereços de memória das variáveis.
 
-## 🧑‍💻 Sugestões de Exercícios
+## 🧑‍💻 Sugestões de Aprimoramento
 
 - Alterar a taxa de juros utilizada no cálculo.
 - Implementar o cálculo de juros compostos.
