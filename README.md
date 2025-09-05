@@ -24,22 +24,58 @@ Certifique-se de estar no diretório raiz do projeto e de possuir o compilador G
 No terminal, execute:
 
 ```bash
-gcc trabalho.c -o trabalho
-./trabalho
+gcc investimento_ponteiros.c -o investimento_ponteiros
+./investimento_ponteiros
 ```
 
 ## 💡 Recursos Abordados
 
 - Entrada e saída de dados
-- Operações matemáticas
+- Operações matemáticas (juros simples)
 - Manipulação de vetores e matrizes
 - Utilização de ponteiros
 - Exibição de endereços de memória
 
-## 📝 Observações
+## 📋 Exemplo de Execução
 
-- O código foi desenvolvido para fins didáticos, visando facilitar o aprendizado dos principais conceitos de programação em C.
-- Sinta-se à vontade para modificar e experimentar o código conforme sua necessidade.
+```text
+Digite seu nome: André
+Digite o valor inicial do investimento: 35000
+Digite o número de anos: 2
+
+--- RESULTADOS ---
+Investidor: André
+Valor inicial: 35000.00
+Tempo (anos): 2
+Valor final (com juros simples): 38500.00
+
+Vetor atualizado: 99, 20, 30
+Matriz:
+1 2
+3 4
+
+Endereço do primeiro elemento do vetor: 0x7ffd2c8aa8d4
+Endereço do primeiro elemento da matriz: 0x7ffd2c8aa8e0
+```
+
+## 📚 Conceitos Abordados
+
+- **Juros simples:** Cálculo do valor final de um investimento usando a fórmula `VF = VI * (1 + taxa * tempo)`.
+- **Vetores e matrizes:** Estruturas para armazenar múltiplos valores.
+- **Ponteiros:** Permitem acessar e manipular diretamente os endereços de memória das variáveis.
+
+## 🧑‍💻 Sugestões de Exercícios
+
+- Alterar a taxa de juros utilizada no cálculo.
+- Implementar o cálculo de juros compostos.
+- Adicionar validação para os dados de entrada.
+- Exibir todos os elementos e endereços do vetor e da matriz.
+
+## 🔗 Referências
+
+- [Documentação oficial do C](https://devdocs.io/c/)
+- [Tutorial de C - Programação Progressiva](https://www.programiz.com/c-programming)
+- [Material sobre ponteiros em C](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
 
 ## ℹ️ Ambiente de Desenvolvimento
 
@@ -66,5 +102,10 @@ Para abrir uma página web no navegador padrão do host, utilize:
 "$BROWSER" <url>
 ```
 
+## Suporte e Contato
+
+Em caso de dúvidas, sugestões ou contribuições, entre em contato pelo e-mail: **andrehlbarbosa@gmail.com**
+
 ---
-Desenvolvido por André Luiz Barbosa, para a disciplina de Algoritmos e Técnicas de Programação, do disciplina Ciência da Computação, Anhanguera, Setembro, 2o Semestre, 2025.
+
+Desenvolvido por André Luiz Barbosa, para a disciplina de Algoritmos e Técnicas de Programação, Ciência da Computação, Anhanguera, Setembro, 2º Semestre, 2025.
