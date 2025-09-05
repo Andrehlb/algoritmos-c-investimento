@@ -42,4 +42,4 @@ gcc trabalho.c -o trabalho
 - Sinta-se à vontade para modificar e experimentar o código conforme sua necessidade.
 
 ---
-Desenvolvido para a disciplina de Algoritmos e Técnicas de Programação.
+Desenvolvido por André Luiz Barbosa, para a disciplina de Algoritmos e Técnicas de Programação, do disciplina Ciência da Computação, Anhanguera, Setembro, 2o Semestre, 2025.
